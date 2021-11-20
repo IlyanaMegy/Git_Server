@@ -7,7 +7,8 @@ Hi! Here's  a tuto to set up your server. Not really complicated, just follow th
   - [2. Network settings](#2-network-settings)
   - [3. SSH-keygen](#3-ssh-keygen)
   - [4. Install git](#4-install-git)
-  - [5. Unit test to make my code perfect](#5-unit-test-to-make-my-code-perfect)# 
+  - [5. Unit test to make my code perfect](#5-unit-test-to-make-my-code-perfect)
+  - [6. Security check](#6-security-check)
 
 ## 1. Create the VM
 
