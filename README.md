@@ -1,3 +1,4 @@
+
 # Install your own Git server on a VM
 
 
@@ -147,18 +148,19 @@ chmod 700 /home/git/.ssh
 Go to your host machine's terminal...
 
 and type that ssh command `ssh-keygen -t rsa -b 4096` and share that public key you've just created with your server VM.
+
 ```
 scp .ssh/id_rsa.pub  git@10.0.3.10:/home/git/.ssh/authorized_keys
 
-
+```
 Don't forget to configure the **/etc/ssh/sshd_config** file !
+
 -> Change the parameter in PasswordAuthentication to:
 
     PasswordAuthentication no
 ```
 systemctl restart sshd
 ```
-
 /!\ If you get this error while trying to connect with SSH : 
 
 ```output
@@ -208,4 +210,4 @@ Your setup is now done but you can improve your VM server and make it more secur
 
 Let's resume, during this setup you gave to user et git users all root rights so you can share and communicate with your host machine through SSH and SCP protocols without using passwords and also to manipulate your files and folders on your VM. 
 
-Now that we're done with the setup you don't need all of that, you'll now communicate with your server using with Git, 
+Now that we're done with the setup you don't need all of that, you'll now communicate with your server using with Git,
