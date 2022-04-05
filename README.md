@@ -21,7 +21,7 @@ Before we start I need to download some stuff, do not worry my friend i have a l
 
 -> First if you don't have it, download VirtualBox ! (Here's a pretty [usefull link](https://www.virtualbox.org/wiki/Downloads))
 
--> Ok now you need to get that CentOS iso file, i advise you to download  [this one](https://www.centos.org/download/), rename it centos.iso and copy/paste it to this current folder)
+-> Ok now you need to get that CentOS iso file, i advise you to download  [this one](https://www.centos.org/download/), (**rename it centos.iso** and copy/paste it to this current folder)
 
 -> I assume you've done with the VirtualBox install so now let's configure a network interface so you can have you're very special ip adress on your VM:
 -  OK go to the `File/Host Network Manager`  window and let's add a new network interface, wait a bit it may takes time...
