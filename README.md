@@ -29,7 +29,7 @@ Before we start I need to download some stuff, do not worry my friend i have a l
 
 
 Nice, now we can start that VM's Setup, to make it quicker for you i've wrote a little bash script, run **create_CentOS_VM.sh**.
--> Just execute it and wait until the VM install is done. 
+-> Just execute it and wait until the VM install is done. (It may takes a lil bit of time... just don't close until it's done !)
 
 ---
 ## 2. Network settings
