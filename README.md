@@ -43,6 +43,8 @@ localectl set-locale LANG=fr
 Little trick, you can type:
 locqlectl set)locqle LQNG=fr
 
+Then reboot.
+
 Also let's give to user all rights just like root have.
 
     su
