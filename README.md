@@ -1,4 +1,4 @@
-﻿ Install your own Git server on a VM
+# Install your own Git server on a VM
 
 
 Hi! Here's  a tuto to set up your server. Not really complicated, just follow the instructions step by step.
