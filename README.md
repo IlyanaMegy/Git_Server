@@ -38,10 +38,10 @@ At this point you must have noticed your VM infos, just also know that your logi
 
 If you're writing on a azerty keyboard you may need to config this on your CentOS machine.
 To switch to AZERTY just type this commande :
-localectl set-keymap fr
+localectl set-locale LANG=fr
 
 Little trick, you can type:
-locqlectl set)key,qp fr
+locqlectl set)locqle LQNG=fr
 
 Also let's give to user all rights just like root have.
 
