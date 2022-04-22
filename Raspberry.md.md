@@ -38,8 +38,23 @@ Ok now that we have the IP we can connect from Putty :
 
 ![putty](https://cdn.discordapp.com/attachments/960877204491874316/967067058988810280/putty2.png)
 
+
 ![putty connection](https://cdn.discordapp.com/attachments/960877204491874316/967065727968362596/putty.png)
 
 ## SSH config to secure
 
+Our primal goal is to set a Git server on that Raspberry right?
+But we want that for us and only us !
+We'll then have to secure a bit all of that and we'll do it step by step.
+
+First we will create a special user from which we can communicate to the server. This user will be able to do some actions but to stay safe it will not be able to access to all folders or files of the Raspberry.
+
+Then we will assure that we can communicate with SSH without password and we will not allow a connection with a password to enforce the security. Also only some IPs will be allowed to communicate with the server.
+
+And then we can also change the port of SSH so that none can communicate with the server unless they know the port.
+
+So to resume:
+1. The communation will be only through that ''git'' user,
+2. only some people (IPs) will have the right to communicate with the server,
+3. The communication with SSH will not be from port 22 and so you need to know which port it is.
 
