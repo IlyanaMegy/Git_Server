@@ -54,7 +54,32 @@ Then we will assure that we can communicate with SSH without password and we wil
 And then we can also change the port of SSH so that none can communicate with the server unless they know the port.
 
 So to resume:
-1. The communation will be only through that ''git'' user,
-2. only some people (IPs) will have the right to communicate with the server,
-3. The communication with SSH will not be from port 22 and so you need to know which port it is.
+1. Change ip address to a static one
+2. The communation will be only through that ''git'' user,
+3. only some people (IPs) will have the right to communicate with the server,
+4. The communication with SSH will not be from port 22 and so you need to know which port it is.
 
+---
+
+**1/ Change IP Addr to a static one**
+
+It'll will be easier to have followed IP addresses that will be used to communicated with the server, so first we need to change the server's one.
+
+Simple reminder we need to know our current IP but we also need the router's one as we're connected to WIFI.
+Do a `ip route | grep wlan0` to get those.
+Then go to the `/etc/dhcpcd.conf` file and scroll down until you get those lines and uncomment them to put the IP that you want and the router's IP :
+
+![enter image description here](https://cdn.discordapp.com/attachments/960877204491874316/967097549909532773/wlan0.png)You can now reboot the Raspberry and connect again with ssh to see if the ip has changed well.
+
+---
+
+**2/ Create a git user and configure it**
+
+This part is really short, to create new user you do the command :
+```
+sudo useradd git
+```
+and to set a password, you just do :
+`sudo passwd git`
+You enter the password you want and boom finished.
+Now we will configure this user to make it secure for the server.
