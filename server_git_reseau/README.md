@@ -119,4 +119,8 @@ Go to your internet modem interface and on the tab Networking/network you should
 I show you mine as an example :
 
 ![enter image description here](https://cdn.discordapp.com/attachments/889061317321838627/973173482076635136/unknown.png)
-ssh git@86.213.8.213 -p 42
+
+You can now connect to your raspberry server using:
+``ssh git@86.213.8.213 -p 42``
+
+with user git and the public ip addr of the modem through port 42.
