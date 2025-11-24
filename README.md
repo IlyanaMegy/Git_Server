@@ -417,8 +417,8 @@ Ce projet t'offre **une solution Git complète et sécurisée** avec :
   <img src="srcs/virtualbox.svg" alt="VirtualBox" title="VirtualBox" width="60" style="margin: 10px;"/>
 </div>
 
-<div align="center">
-  <img src="srcs/C#.svg" alt="CSharp" title="CSharp" width="60" style="margin: 10px;"/>
+<div style="margin-top:10px;" align="center">
+  <img src="srcs/CSharp.svg" alt="CSharp" title="CSharp" width="60" style="margin: 10px;"/>
   <img src="srcs/bash.svg" alt="Bash" title="Bash" width="60" style="margin: 10px;"/>
   <img src="srcs/DotNET_core.svg" alt="DotNET Core" title=".NET Core" width="60" style="margin: 10px;"/>
 </div>
