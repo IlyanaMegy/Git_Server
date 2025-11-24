@@ -1,0 +1,35 @@
+# IDE
+.vscode/
+.vs/
+
+# .NET
+bin/
+obj/
+*.pdb
+*.dll
+*.deps.json
+*.runtimeconfig*.json
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+*.p7s
+
+# Logs
+*.log
+log.out
+
+# Build outputs
+**/Debug/
+**/Release/
+
+# Test results
+TestResults/
+*.trx
+
+# User specific
+*.user
+*.suo
+*.cache
+*.dll.config
